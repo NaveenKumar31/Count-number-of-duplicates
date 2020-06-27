@@ -1,0 +1,19 @@
+int cnt = 0;
+
+        HashSet<Integer> h = new HashSet<Integer>(numbers);
+
+ 
+
+        for (int token : h)
+
+        {
+
+            if (Collections.frequency(numbers, token) > 1)
+
+                cnt++;
+
+        }
+
+         
+
+        return cnt;
